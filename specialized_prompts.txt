@@ -1,0 +1,53 @@
+# Specialized Prompt Examples (v2 - 2025) – GPT-4.1 Aligned
+
+This collection includes domain-specific prompts across image generation, coding, and business writing. All prompts follow style-tag formatting, clarity principles, and output constraints.
+
+---
+
+[IMAGE GENERATION]
+1. **[CREATIVE / FORMAT-CONSTRAINED]**  
+Prompt: A surreal landscape of floating crystal mountains under a purple twilight sky — digital art, high contrast, Studio Ghibli style.  
+– When to use: Artistic visual ideation with stylistic control.
+
+2. **[INSTRUCTIONAL / FORMAT-CONSTRAINED]**  
+Prompt: Product photo of a handcrafted wooden watch. White background, soft natural lighting, realistic render.  
+– When to use: Commercial or product-focused image generation.
+
+---
+
+[CODING]
+1. **[INSTRUCTIONAL]**  
+Prompt: You are a Python assistant. Given the code:  
+```python
+def add(a, b):
+    print(a + b)
+```  
+Fix it to return the sum instead. Output: corrected code only.  
+– When to use: Bug-fixing in a constrained format.
+
+2. **[ROLE-BASED / FORMAT-CONSTRAINED]**  
+Prompt: You are a SQL expert. Given the schema: Employees(name, department, salary), write a query that returns average salary per department. Format: SQL code only.  
+– When to use: Output format must match developer expectations.
+
+---
+
+[BUSINESS WRITING]
+1. **[ROLE-BASED]**  
+Prompt: Act as a customer support representative. Write a professional apology email for a late delivery and offer a 10% discount. Tone: Polite and reassuring.  
+– When to use: Human-facing tone-critical communication.
+
+2. **[CHAIN-OF-THOUGHT / FORMAT-CONSTRAINED]**  
+Prompt: Analyze Q4 performance using these categories:  
+- Revenue Growth  
+- Expense Drivers  
+- Final Recommendations  
+Respond in 3 paragraphs. Tone: Formal and data-focused.  
+– When to use: Executive-facing report writing.
+
+---
+
+📝 Notes:
+- All prompts emphasize clarity, audience, tone, and format.
+- When appropriate, encourage iteration: “Now try a more concise version” or “Make it suitable for a presentation deck.”
+
+# Last updated: 24/04/25

@@ -1,0 +1,71 @@
+# Prompt Templates (v2 - 2025)
+
+Use these templates to generate structured, audience-aware, and high-quality prompts across use cases.
+
+---
+
+[COMPREHENSIVE INSTRUCTION]
+You are a [ROLE]. Your task is to [INSTRUCTION]. Use a [TONE] tone. Output: [FORMAT].
+Example: You are a product manager. Your task is to summarize user complaints. Use a neutral tone. Output: bullet list.
+
+---
+
+[CHAIN-OF-THOUGHT]
+Let’s break this down step-by-step:
+Step 1: ...
+Step 2: ...
+...
+Final Answer: ...
+Use when: Tasks require reasoning, analysis, or logic to build up to a conclusion.
+
+---
+
+[FEW-SHOT]
+Input: "X"
+Output: "Y"
+Input: "Z"
+Output: ?
+Use when: You want the model to learn from a small number of examples.
+
+---
+
+[FORMAT-CONSTRAINED]
+Describe the [TOPIC] in the following format:
+- Summary:
+- Key Points:
+- Recommendation:
+Use when: A structured output is required.
+
+---
+
+[SCENARIO-BASED]
+Scenario: [CONTEXT]
+Goal: [OBJECTIVE]
+Constraints: [CONSTRAINTS]
+Output Format: [FORMAT]
+Tone: [TONE]
+Use when: You want to simulate real-world use or decision making.
+
+---
+
+[AUDIENCE-TUNED]
+Write for a [TARGET AUDIENCE]. Focus on [GOAL].
+Example: Write for junior developers. Focus on debugging strategies in Python.
+Use when: Clarity and tone must match the reader’s level.
+
+---
+
+[STYLE COMPARISON]
+Generate two versions:
+1. Formal and concise
+2. Creative and conversational
+Use when: Exploring tone or voice alternatives.
+
+---
+
+[MULTI-PROMPT ITERATION]
+Generate 3 prompt versions with variations in structure or constraints.
+Label each clearly.
+Use when: Testing different angles or fine-tuning specificity.
+
+# Last updated: 24/04/25

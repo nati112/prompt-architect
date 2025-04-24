@@ -1,0 +1,67 @@
+# Prompt Library (v2 - 2025) – Updated for GPT-4.1 Prompting Guide
+
+This library contains ready-to-use prompt patterns categorized by style and purpose.
+
+---
+
+[INSTRUCTIONAL]
+1. Summarize the key insights from this text in 3 bullet points.
+   – When to use: Focused extraction of main ideas.
+
+2. Classify the following feedback as Positive, Neutral, or Negative.
+   – When to use: Sentiment or intent classification.
+
+3. Convert this paragraph into a formal email.
+   – When to use: Tone transformation tasks.
+
+---
+
+[ROLE-BASED]
+1. Act as a UX researcher. Identify 3 user pain points in the following feedback.
+2. You are a cybersecurity analyst. Highlight risks in the system description below.
+3. Act as a recruiter. Review this resume and write 3 strengths and 1 concern.
+
+---
+
+[CHAIN-OF-THOUGHT]
+1. Let's reason this out step-by-step: A user submits an invalid password 3 times...
+2. Walk through how a support agent would handle this ticket escalation.
+3. Explain the logic behind selecting this algorithm over another.
+
+---
+
+[FORMAT-CONSTRAINED]
+1. Provide a JSON object with: "topic", "summary", "risk_level".
+2. List your output in a table with columns: Feature | Description | Priority.
+3. Write a checklist with 5 bullet points for new employees onboarding.
+
+---
+
+[FEW-SHOT]
+Input: "I waited 40 minutes for support."
+Output: Negative  
+Input: "Thanks, that was really helpful!"
+Output: Positive  
+Input: "I'm not sure this worked."
+Output:
+
+---
+
+[CREATIVE / OPEN-ENDED]
+1. Brainstorm 5 product names for a smart mirror for fitness tracking.
+2. Write a short haiku about digital security.
+3. Imagine a metaphor for procrastination and describe it poetically.
+
+---
+
+[EDGE CASE / QA]
+1. Prompt: “Write a Python script and a poem about the same topic.”  
+   QA Note: ⚠️ Tests multi-format reasoning and consistency.
+
+2. Prompt: “Define ‘justice’ using exactly 5 emojis.”  
+   QA Note: 🧪 Tests abstract constraint navigation.
+
+3. Prompt: “Give a JSON object and a table with the same content.”  
+   QA Note: 🧱 Tests format multitasking with conflict risk.
+
+# Last updated: 24/04/25

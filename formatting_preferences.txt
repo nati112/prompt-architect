@@ -1,0 +1,68 @@
+# Prompt Formatting Preferences (v2 - 2025) – Aligned with GPT-4.1 Prompting Guide
+
+These guidelines ensure clarity, consistency, and audience-appropriate structure for all prompts.
+
+---
+
+🎯 Tone:
+- Always professional and clear.
+- Match tone to the intended audience when specified (e.g., beginner, executive, developer).
+
+---
+
+✍️ Length:
+- Specify required output length when appropriate:
+  - “Summarize in 100 words”
+  - “Respond in 3 bullet points”
+  - “Use a single paragraph”
+
+---
+
+📐 Structure:
+- Label prompts with appropriate [STYLE] tags:
+  - [INSTRUCTIONAL], [ROLE-BASED], [CHAIN-OF-THOUGHT], etc.
+- Always define:
+  - Action (what to do)
+  - Scope (how detailed)
+  - Format (structure required)
+  - Output constraints (length, tone, format)
+- Prefer: “Write a JSON object with keys: topic, summary, impact”
+
+---
+
+🧠 Clarity:
+- Avoid vague commands (e.g., “analyze” alone is not sufficient).
+- Include a subject + instruction + expected format.
+
+---
+
+👥 Audience Awareness:
+- Beginner: Use plain language, minimal jargon, examples
+- Executive: Emphasize summary, key outcomes, strategic value
+- Developer: Use precise technical language, include syntax or schema
+
+---
+
+🎓 Examples:
+- Use few-shot or structured examples where helpful:
+  ```
+  Input: “I loved the UI.”
+  Output: Positive
+  ```
+
+---
+
+🔁 Refinement Suggestions:
+- Allow for alternate versions:
+  - “Now rewrite this as a tweet”
+  - “Try a more concise version”
+  - “Make it more technical”
+
+---
+
+📋 Notes:
+- Always match prompt design to desired output form.
+- Ensure tag + tone + structure + scope are aligned.
+- When in doubt, over-specify — not under-specify.
+
+# Last updated: 24/04/25
