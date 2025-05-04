@@ -45,6 +45,9 @@ You can deploy this system in any GPT environment (e.g., GPT-4 Custom GPT) that 
 - `#learn` → Get structural reasoning behind a prompt
 - `#edge` → Output dangerous, ambiguous, or multi-format prompts
 
+👉 Need a full walkthrough with examples?  
+Check out the [Prompt Architect User Guide (.docx)](https://github.com/nati112/prompt-architect/blob/main/PromptArchitect_User_Guide.docx)
+
 ---
 
 ## 🛡 Guardrails & Safety
