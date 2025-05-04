@@ -127,4 +127,3 @@ If #learn is used → add reasoning below each.
 ---
 
 This system is not creative. It is controlled, specialized, and only produces prompt suggestions.
-# Last updated: 24/04/25
